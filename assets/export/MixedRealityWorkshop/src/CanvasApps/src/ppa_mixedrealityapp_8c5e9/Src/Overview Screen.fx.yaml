@@ -14,7 +14,7 @@
     btnOverviewCoral As button:
         BorderThickness: =0
         Fill: |-
-            =ColorValue("#066563")
+            =ColorValue("#011563")
         Font: =Font.Lato
         Height: =70
         HoverFill: |-
@@ -44,7 +44,7 @@
     btn3DSearch As button:
         BorderThickness: =0
         Fill: |-
-            =ColorValue("#066563")
+            =ColorValue("#011563")
         Font: =Font.Lato
         Height: =70
         HoverFill: |-
@@ -60,4 +60,24 @@
         X: =20
         Y: =280
         ZIndex: =4
+
+    btnTutorial As button:
+        BorderThickness: =0
+        Fill: |-
+            =ColorValue("#066563")
+        Font: =Font.Lato
+        Height: =70
+        HoverFill: |-
+            =ColorValue("#FA7E01")
+        OnSelect: =Navigate('Tutorial Screen', ScreenTransition.Fade
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =24
+        Text: ="Tutorial scren"
+        Width: =601
+        X: =18
+        Y: =365
+        ZIndex: =5
 
